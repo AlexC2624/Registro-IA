@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro IA - Login</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Bem vindo ao Registro IA</h1>
+        <h2>Acesse a sua conta</h2>
+        <form id="login-form" action="/loguin" method="POST">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Acessar</button>
+        </form>
+        <p class="footer-text">© 2023 Registro IA. Todos os direitos reservados.</p>
+    </div>
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
